@@ -10,7 +10,7 @@ export default function Home() {
       className="grid grid-cols-1 lg:grid-cols-12 max-w-3xl bg-white rounded-md shadow-xl 
     transition-colors duration-500"
     >
-      <figure className="col-span-4 overflow-hidden lg:rounded-l-md relative w-full min-h-[30vh] lg:min-h-0">
+      <figure className="col-span-4 overflow-hidden rounded-tr-md lg:rounded-tr-none lg:rounded-l-md relative w-full min-h-[30vh] lg:min-h-0">
         <Image
           src="/images/drawers.jpg"
           alt="Drawers Image"
